@@ -191,6 +191,7 @@
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="SamplePages\Courses.aspx" />
     <Content Include="SamplePages\Page1.aspx" />
+    <Content Include="SamplePages\WhatNext.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -374,6 +375,13 @@
     </Compile>
     <Compile Include="SamplePages\Page1.aspx.designer.cs">
       <DependentUpon>Page1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamplePages\WhatNext.aspx.cs">
+      <DependentUpon>WhatNext.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamplePages\WhatNext.aspx.designer.cs">
+      <DependentUpon>WhatNext.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
